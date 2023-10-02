@@ -1,3 +1,5 @@
+<?php
+
 function ijab_category_image_single_product() {
     $terms = get_the_terms( $post->ID, 'product_cat' );
     foreach ( $terms as $term ){
